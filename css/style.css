@@ -47,11 +47,13 @@ span {
 .sctn-white {
     background: var(--white);
     /* background: var(--black); */
+    padding: 75px 0;
 }
 
 .sctn-black {
-    background: var(--black2);
-    padding: 25px 0;
+    /* background: var(--black2); */
+    background: transparent;
+    padding: 75px 0;
 }
 
 /* -------------- */

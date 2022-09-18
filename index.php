@@ -31,7 +31,7 @@
             <p>Test line</p>
         </section>
 
-        <section id="skills">
+        <section id="skills" class="sctn-black">
             <div class="wrapper">
                 <div class="skill">
                     <h5>My Skills<span>.</span></h5>
