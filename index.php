@@ -1,18 +1,21 @@
     <?php @include_once('header.php') ?>
 
-    <div class="hero">
-        <div class="wrapper">
-            <div class="hero-info">
-                <h1><span>D</span>ennis Overman<span>.</span></h1>
-                <p>I'm a <span>Web</span> developer<span>.</span></p>
-                <a href="projects.php">Projects</a>
+    <section id="home">
+        <div class="hero">
+            <div class="wrapper">
+                <div class="hero-info">
+                    <h1><span>D</span>ennis Overman<span>.</span></h1>
+                    <p>I'm a <span>Web</span> developer<span>.</span></p>
+                    <a id="sec-3" href="#skills">Skills</a>
+                    <a id="sec-4" href="#projects">Projects</a>
+                </div>
             </div>
         </div>
-    </div>
-    <?php @include_once('test.php') ?>
+        <?php @include_once('test.php') ?>
+    </section>
 
     <main>
-        <section class="sctn-white">
+        <section id="about" class="sctn-white">
             <p>Test line</p>
             <p>Test line</p>
             <p>Test line</p>
@@ -28,7 +31,7 @@
             <p>Test line</p>
         </section>
 
-        <section class="sctn-black">
+        <section id="skills">
             <div class="wrapper">
                 <div class="skill">
                     <h5>My Skills<span>.</span></h5>
@@ -75,6 +78,22 @@
                     </div>
                 </div>
             </div>
+        </section>
+
+        <section id="projects" class="sctn-white">
+            <p>Test line</p>
+            <p>Test line</p>
+            <p>Test line</p>
+            <p>Test line</p>
+            <p>Test line</p>
+            <p>Test line</p>
+            <p>Test line</p>
+            <p>Test line</p>
+            <p>Test line</p>
+            <p>Test line</p>
+            <p>Test line</p>
+            <p>Test line</p>
+            <p>Test line</p>
         </section>
     </main>
 </body>

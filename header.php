@@ -16,7 +16,7 @@
 <body>
     <div class="loader-container">
         <div class="loader">
-            
+
         </div>
     </div>
     <header>
@@ -28,14 +28,15 @@
                     </div>
 
                     <div class="nav-links">
-                        <a href="index.php">Home</a></li>
-                        <a href="about.php">About</a></li>
-                        <a href="projects.php">Projects</a></li>
+                        <a id="sec-1" href="#home">Home</a>
+                        <a id="sec-2" href="#about">About</a>
+                        <a id="sec-3" href="#skills">Skills</a>
+                        <a id="sec-4" href="#projects">Projects</a>
                     </div>
 
                     <div class="nav-right">
-                        <a href="login.php">Login</a></li>
-                        <a href="signup.php">Sign Up</a></li>
+                        <a href="login.php">Login</a>
+                        <a href="signup.php">Sign Up</a>
                     </div>
                 </div>
             </div>
