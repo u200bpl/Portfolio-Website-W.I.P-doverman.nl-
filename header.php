@@ -14,6 +14,11 @@
     <title>Doverman</title>
 </head>
 <body>
+    <div class="loader-container">
+        <div class="loader">
+            
+        </div>
+    </div>
     <header>
         <nav>
             <div class="wrapper">

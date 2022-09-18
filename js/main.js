@@ -1,3 +1,9 @@
+// LOADER
+$(window).on("load",function(){
+    $(".loader-container").fadeOut(1000);
+});
+
+// NAVBAR SCROLL
 var myNav = document.getElementById("nav");
 window.onscroll = function() {
     "use strict";

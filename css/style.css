@@ -1,9 +1,18 @@
 :root {
     --white: #fff;
+    --black: rgb(0, 0, 0);
+    --black2: #111;
     --red: #AF181D;
+    --orange: #E48E00;
+    --light-orange: #F26B3A;
+    --blue: #2965F1;
+    --yellow: #F7D100;
+    --light-purple: #777BB3;
+    --purpe: #953DAC;
     --font-size: 28px;
     --font: Arial, Helvetica, sans-serif;
     --font-h1: 60px;
+    --font-h5: 40px;
 }
 
 * {
@@ -17,7 +26,6 @@ body {
 
 nav {
     background-color: transparent;
-    /* background-color: #111; */
     width: 100%;
     position: fixed;
     top: 0;
@@ -33,6 +41,16 @@ span {
 .wrapper {
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.sctn-white {
+    background: var(--white);
+    /* background: var(--black); */
+}
+
+.sctn-black {
+    background: var(--black2);
+    padding: 25px 0;
 }
 
 /* -------------- */
@@ -128,7 +146,7 @@ main {
     position: relative;
     width: 100%;
     height: 100vh;
-    background: #111;
+    background: var(--black2);
     display: flex;
     flex-direction: column;
     overflow: hidden;
@@ -178,6 +196,17 @@ section .row div:nth-child(2) {
     animation-delay: -40s;
 }
 
+/* LEFT TO RIGHT */
+section .row:nth-child(even) div {
+    animation: animate3 80s linear infinite;
+    animation-delay: -80s;
+}
+
+section .row:nth-child(even) div:nth-child(2) {
+    animation: animate4 80s linear infinite;
+    animation-delay: -40s;
+}
+
 @keyframes animate1 {
     0% {
         transform: translateX(100%);
@@ -196,17 +225,6 @@ section .row div:nth-child(2) {
     }
 }
 
-/* LEFT TO RIGHT */
-section .row:nth-child(even) div {
-    animation: animate3 80s linear infinite;
-    animation-delay: -80s;
-}
-
-section .row:nth-child(even) div:nth-child(2) {
-    animation: animate4 80s linear infinite;
-    animation-delay: -40s;
-}
-
 @keyframes animate3 {
     0% {
         transform: translateX(-100%);
@@ -222,5 +240,81 @@ section .row:nth-child(even) div:nth-child(2) {
     }
     100% {
         transform: translateX(0%);
+    }
+}
+
+/* ------------- */
+/* SKILL SECTION */
+/* ------------- */
+.container {
+    width: 100%;
+    background-color: var(--black);
+    border-radius: 25px;
+}
+  
+.skills {
+    text-align: right;
+    padding: 10px 10px;
+    color: var(--white);
+}
+
+.skill {
+    color: var(--white);
+}
+
+.skill h5 {
+    font-size: var(--font-h5);
+    text-align: center;
+}
+
+.skill-block {
+    margin: 15px 0;
+}
+  
+.html {width: 90%; background-color: var(--light-orange); border-radius: 25px;}
+.css {width: 75%; background-color: var(--blue); border-radius: 25px;}
+.js {width: 10%; background-color: var(--yellow); border-radius: 25px;}
+.php {width: 65%; background-color: var(--blue); border-radius: 25px;}
+.mysql {width: 45%; background-color: var(--orange); border-radius: 25px;}
+.laravel {width: 5%; background-color: var(--red); border-radius: 25px;}
+
+/* -------------- */
+/* LOADER SECTION */
+/* -------------- */
+.loader-container {
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    background: var(--black2);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 999;
+}
+
+.loader {
+    width: 50px;
+    height: 50px;
+    border: 5px solid;
+    color: var(--red);
+    border-radius: 50%;
+    border-top-color: transparent;
+    animation: loader 1.2s linear infinite;
+}
+
+@keyframes loader {
+    25% {
+        color: var(--blue);
+    }
+    50% {
+        color: var(--red);
+    }
+    75% {
+        color: var(--blue);
+    }
+    to {
+        transform: rotate(360deg);
     }
 }
