@@ -76,6 +76,13 @@
                             <div class="skills laravel">5%</div>
                         </div>
                     </div>
+
+                    <div class="skill-block">
+                        <p>Java</p>
+                        <div class="container">
+                            <div class="skills java">15%</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

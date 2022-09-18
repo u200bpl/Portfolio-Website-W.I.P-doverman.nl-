@@ -285,6 +285,7 @@ section .row:nth-child(even) div:nth-child(2) {
 .php {width: 65%; background-color: var(--blue); border-radius: 25px;}
 .mysql {width: 45%; background-color: var(--orange); border-radius: 25px;}
 .laravel {width: 5%; background-color: var(--red); border-radius: 25px;}
+.java {width: 15%; background-color: var(--orange); border-radius: 25px;}
 
 /* -------------- */
 /* LOADER SECTION */
