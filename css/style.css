@@ -1,9 +1,9 @@
 :root {
     --white: #fff;
     --red: #AF181D;
-    --font-size: 23px;
+    --font-size: 28px;
     --font: Arial, Helvetica, sans-serif;
-    --font-h1: 65px;
+    --font-h1: 60px;
 }
 
 * {
@@ -23,6 +23,7 @@ nav {
     top: 0;
     left: 0;
     z-index: 3;
+    transition: 0.5s;
 }
 
 span {
@@ -53,6 +54,14 @@ span {
 .nav a {
     padding: 0 10px;
     text-decoration: none;
+    color: var(--white);
+}
+
+.nav a:hover {
+    color: var(--red);
+}
+
+.nav a:hover span {
     color: var(--white);
 }
 
@@ -91,7 +100,7 @@ span {
 
 .hero-info > p {
     font-size: var(--font-size);
-    margin: 10px 0;
+    margin: 2px 0 15px 0;
 }
 
 .hero-info > a {
@@ -124,6 +133,13 @@ main {
     flex-direction: column;
     overflow: hidden;
     z-index: 1;
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Old versions of Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+    user-select: none;
 }
 
 section .row {
