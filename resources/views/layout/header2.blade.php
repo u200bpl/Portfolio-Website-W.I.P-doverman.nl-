@@ -29,14 +29,14 @@
                     </div>
 
                     <div class="nav-links">
-                        <a id="sec-1" href="#home">Home</a>
-                        <a id="sec-2" href="#about">About</a>
-                        <a id="sec-3" href="#skills">Skills</a>
-                        <a id="sec-4" href="#projects">Projects</a>
+                        <a id="sec-1" href="/#home">Home</a>
+                        <a id="sec-2" href="/#about">About</a>
+                        <a id="sec-3" href="/#skills">Skills</a>
+                        <a id="sec-4" href="/#projects">Projects</a>
                     </div>
 
                     <div class="nav-right">
-                        <a href="/login">Login</a>
+                    <a href="/login">Login</a>
                         <a href="/register">Sign Up</a>
                     </div>
                 </div>

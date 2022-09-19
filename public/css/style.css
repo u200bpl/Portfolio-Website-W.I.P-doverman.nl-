@@ -157,6 +157,7 @@ nav {
     cursor: pointer;
     text-decoration: none;
     margin: 0 10px;
+    user-select: none;
 }
 
 /* ------------------- */
@@ -390,4 +391,55 @@ section .row:nth-child(even) div:nth-child(2) {
     to {
         transform: rotate(360deg);
     }
+}
+
+/* ------------- */
+/* LOGIN SECTION */
+/* ------------- */
+.login {
+    text-align: center;
+    z-index: 2;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--white);
+    background-color: var(--black2);
+    padding: 50px 75px;
+    border-radius: 10px;
+}
+
+.login h5 {
+    font-size: var(--font-h2);
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    font-size: 22px;
+    margin: 10px 0;
+}
+
+.form-group input {
+    font-size: 18px;
+
+    background-color: var(--black);
+    color: var(--white);
+    padding: 6px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.form-group input[type=submit] {
+    background-color: var(--red);
+    color: var(--white);
+    font-size: var(--font-size);
+    padding: 6px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    margin: 0 10px;
+    user-select: none;
 }
