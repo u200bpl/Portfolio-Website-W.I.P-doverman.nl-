@@ -7,9 +7,10 @@
 
     <script src="https://kit.fontawesome.com/268c8277db.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="js/main.js"></script>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="{{asset('css/style.css')}}">
+    <script src="{{asset('js/main.js')}}"></script>
+    <!-- Link rel = stylesheet href="{{asset('css/style.css')}}" -->
 
     <title>Doverman</title>
 </head>

@@ -1,4 +1,4 @@
-        <section class="test">
+<section class="animated-bg">
         <?php for ($i = 0; $i < 50; $i++) { ?>
             <div class="row">
                 <?php for ($a = 0; $a < 3; $a++) { ?>
