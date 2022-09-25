@@ -1,5 +1,6 @@
 // LOADER
 $(window).on("load",function(){
+    alert("Hello visitor, this is a demo website. That means that the site is still under construction. Please don't try to login or register. Thank you!");
     $(".loader-container").fadeOut(1000);
 });
 

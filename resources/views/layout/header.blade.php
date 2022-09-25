@@ -25,13 +25,12 @@
             <div class="wrapper">
                 <div class="nav">
                     <div class="nav-logo">
-                        <a href="index.php"><h1><span>D</span>overman<span>.</span></h1></a>
+                        <a href="/"><h1><span>D</span>overman<span>.</span></h1></a>
                     </div>
 
                     <div class="nav-links">
                         <a id="sec-1" href="#home">Home</a>
                         <a id="sec-2" href="#about">About</a>
-                        <a id="sec-3" href="#skills">Skills</a>
                         <a id="sec-4" href="#projects">Projects</a>
                     </div>
 

@@ -6,7 +6,7 @@
             <div class="wrapper">
                 <div class="hero-info">
                     <h1><span>D</span>ennis Overman<span>.</span></h1>
-                    <p>I'm a <span>Web</span> developer<span>.</span></p>
+                    <p>I'm a <span>Web</span> developer<span>,</span> and a <span>pc</span>/<span>setup</span> builder<span>.</span></p>
                     <a id="sec-3" href="#skills">Skills</a>
                     <a id="sec-4" href="#projects">Projects</a>
                 </div>
@@ -23,7 +23,7 @@
                 <div class="about-left">
                     <h2>About Me<span>.</span></h2>
                     <h3>Hello! I'm <span>D</span>ennis Overman<span>.</span></h3>
-                    <p>Hello<span>,</span> my name is <span>Dennis Overman</span> and I'm a front-end Web Developer for over 5 years of experience<span>.</span></p>
+                    <p>Hello<span>,</span> my name is <span>Dennis Overman</span> and I'm a front-end Web Developer for over 5 years of experience<span>.</span> Also I'm helping people with building there <span>PC's</span> and <span>Setups</span> for over 3 years now!</p>
                     <br>
                     <p>I started discovering the online world when I was 14 years old<span>.</span> A few years later I discovered the world of making websites<span>,</span> My first few websites were still with wordpress. Only I missed a lot of customizable things<span>.</span> So I went looking for alternatives and I discovered the world of <span>html</span>, <span>css</span> and <span>php.</span></p>
                     <div class="info-flex">
@@ -45,6 +45,11 @@
                             </ul>
                         </div>
                     </div>
+                    <div class="socials">
+                        <a href="https://www.instagram.com/geitjoch/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/dennis-overman-1724b3136/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/u200bpl"><i class="fa-brands fa-github"></i></a>
+                    </div>
                 </div>
         
                 <div class="about-right">
@@ -52,12 +57,10 @@
                 </div>
             </div>
         </div>
-    </section>
 
-    <section id="skills" class="sctn-black">
         <div class="wrapper">
             <div class="skill">
-                <h2>My Skills<span>.</span></h2>
+                <h2>My Program Skills<span>.</span></h2>
                 <div class="skill-block">
                     <p>HTML</p>
                     <div class="container">
@@ -110,21 +113,39 @@
         </div>
     </section>
 
-    <section id="projects" class="sctn-white">
-        <p>Test line</p>
-        <p>Test line</p>
-        <p>Test line</p>
-        <p>Test line</p>
-        <p>Test line</p>
-        <p>Test line</p>
-        <p>Test line</p>
-        <p>Test line</p>
-        <p>Test line</p>
-        <p>Test line</p>
-        <p>Test line</p>
-        <p>Test line</p>
-        <p>Test line</p>
+    <section id="projects" class="sctn-black">
+        <div class="project-1">
+            <div class="project">
+                <div class="wrapper">
+                    <h5>Project-1<span>.</span></h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque et provident maxime nesciunt id exercitationem, quos modi molestias ex fugiat dolorem placeat? Eveniet voluptates natus quam nesciunt dignissimos sint, beatae repellendus magni quo tenetur velit fugit cupiditate illo fugiat ut harum sed iure asperiores molestias! Reiciendis explicabo possimus aliquam ad qui doloremque sint cumque provident fugit odio, mollitia veritatis repellat saepe officia ducimus ex iste magni nobis obcaecati voluptates voluptatem. Sed pariatur praesentium error dolorem.</p>
+                    <a href="">Click here</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-2">
+            <div class="project">
+                <div class="wrapper">
+                    <h5>Project-2<span>.</span></h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque et provident maxime nesciunt id exercitationem, quos modi molestias ex fugiat dolorem placeat? Eveniet voluptates natus quam nesciunt dignissimos sint, beatae repellendus magni quo tenetur velit fugit cupiditate illo fugiat ut harum sed iure asperiores molestias! Reiciendis explicabo possimus aliquam ad qui doloremque sint cumque provident fugit odio, mollitia veritatis repellat saepe officia ducimus ex iste magni nobis obcaecati voluptates voluptatem. Sed pariatur praesentium error dolorem.</p>
+                    <a href="">Click here</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-3">
+            <div class="project">
+                <div class="wrapper">
+                    <h5>Project-3<span>.</span></h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque et provident maxime nesciunt id exercitationem, quos modi molestias ex fugiat dolorem placeat? Eveniet voluptates natus quam nesciunt dignissimos sint, beatae repellendus magni quo tenetur velit fugit cupiditate illo fugiat ut harum sed iure asperiores molestias! Reiciendis explicabo possimus aliquam ad qui doloremque sint cumque provident fugit odio, mollitia veritatis repellat saepe officia ducimus ex iste magni nobis obcaecati voluptates voluptatem. Sed pariatur praesentium error dolorem.</p>
+                    <a href="">Click here</a>
+                </div>
+            </div>
+        </div>
     </section>
 </main>
+
+@include('layout.footer')
 </body>
 </html>
